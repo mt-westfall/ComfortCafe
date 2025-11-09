@@ -12,25 +12,6 @@ header {
     justify-content: space-between;
 }
 
-a {
-    text-decoration: none;
-}
-
-.main-nav {
-    display: flex;
-    list-style: none;
-}
-
-.main-nav li {
-    margin-left: 36px;
-    color: #435;
-    margin-top: 14px;
-}
-
-.main-nav li:hover {
-    color: #0ba;
-}
-
 footer {
     width: 100%;
     background-color: #444;
@@ -38,3 +19,64 @@ footer {
     padding: 26px 0;
     color: #fff;
 }
+
+a {
+    text-decoration: none;
+}
+
+.heading a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1b0704;
+}
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin-top: 14px;
+}
+
+.main-nav li a {
+    margin-left: 36px;
+    color: #435;
+}
+
+.main-nav li a:hover {
+    color: #0ba;
+}
+
+.main-visual {
+    text-align: center;
+    margin-top: 20%;
+    color: #1b0704;
+}
+
+.main-visual p {
+    font-size: 1.2rem;
+    margin: 10px 0 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.btn {
+    font-size: 1.2rem;
+    background-color: #0ba;
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+.btn:hover {
+    background-color: #0090dd;
+}
+
+#top {
+    min-height: 100vh;
+    background-image: url(./img/cafemain.jpg);
+    background-size: cover;
+}
+
